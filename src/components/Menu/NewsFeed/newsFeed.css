@@ -1,0 +1,63 @@
+.dash-container {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.dash-item{
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #e6edf3;
+    height: 100vh;
+}
+.post-box {
+    height: 250px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 7px 0px #9e929280;
+    padding: 10px 15px !important;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+}
+.post-id {
+    padding: 5%;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 0px #9e929280;
+}
+.close-btn {
+    display: block !important;
+    text-align: end;
+}
+.post-list {
+    display: flex;
+    align-items: center;
+}
+.post-list .post-id {
+    padding: 2%;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 0px #9e929280;
+}
+.post-list .post-item {
+    padding: 10px 15px;
+    border-radius: 13px;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 0px 0px 7px 0px #9e929280;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+
+  }
+  ::-webkit-scrollbar-track { 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d2cccc;
+    border-radius: 11px;
+}
+  
